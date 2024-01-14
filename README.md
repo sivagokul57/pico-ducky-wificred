@@ -1,1 +1,3 @@
-# pico-ducky-wificred
+# Pico-Ducky-WiFiCred
+
+## Description
